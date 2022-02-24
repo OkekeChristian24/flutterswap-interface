@@ -48,7 +48,7 @@ export default function SyrupWarningModal({
               </Text>
               <Text color="failure">
                 {transactionType === 'Buying'
-                  ? 'You will not receive CAKE rewards for holding purchased SYRUP.'
+                  ? 'You will not receive Fswap rewards for holding purchased SYRUP.'
                   : 'You will need to buy back the same amount of SYRUP to be able to convert back to CAKE.'}
               </Text>
             </>

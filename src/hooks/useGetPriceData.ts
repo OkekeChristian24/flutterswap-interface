@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import dummyPriceData from '../data/tokens.json';
 
 type ApiResponse = {
   updated_at: string
@@ -20,9 +21,10 @@ const useGetPriceData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(api)
-        const res: ApiResponse = await response.json()
+        // const response = await fetch(api)
+        // const res: ApiResponse = await response.json();
 
+        const res = JSON.parse(JSON.stringify(dummyPriceData));
         setData(res)
       } catch (error) {
         console.error('Unable to fetch price data:', error)
