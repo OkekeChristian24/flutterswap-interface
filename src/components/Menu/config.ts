@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://exchange.flutterswap.finance/',
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+    href: 'https://app.flutterswap.finance/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/pools',
+    href: 'https://app.flutterswap.finance/pools',
   },
   // {
   //   label: 'Lottery',
@@ -101,7 +101,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://t.me/officialflutterswap',
       },
       // {
       //   label: 'Voting',
@@ -109,15 +109,15 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/Flutterswap',
       },
-      // {
-      //   label: 'Docs',
-      //   href: 'https://docs.pancakeswap.finance',
-      // },
+      {
+        label: 'Docs',
+        href: 'https://docs.flutterswap.finance',
+      },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://flutterswap.medium.com/',
       },
       // {
       //   label: 'Merch',
